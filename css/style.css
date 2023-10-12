@@ -686,6 +686,78 @@ background-color: #F4F4FD
     fill:#f4f4fd;
 }
 
+/*---------------Subscribe menu--------*/
+
+.subscribe-menu {
+    margin-left: 80px;
+    
+}
+
+.subscribe-form {}
+
+.subscribe-text {
+    color: #FFFFFF;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        margin-bottom: 16px;
+}
+
+.subscribe-wrap{
+    display:flex ;
+    gap:24px;
+}
+
+.subscribe-input {
+    color: #ffffff;
+    width: 264px;
+    height: 40px;
+    padding-left:16px ;
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+    background-color: transparent;
+}
+
+.subscribe-btn::placeholder{
+    color: #ffffff;
+}
+
+.btn-wrapper{
+    display: flex;
+}
+
+.subscribe-btn {
+    
+    width: 165px;
+    height: 40px;
+    color: #FFFFFF;
+    background-color: #4D5AE5;
+
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    
+    border-radius: 4px;
+
+    
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.subscribe-icon{
+    margin-left: 16px;
+    fill: #ffffff;
+}
+
+.subscribe-btn:hover,
+.subscribe-btn:focus{
+    background-color: #404bbf;
+}
 
 
 /*MODAL STYLE*/
