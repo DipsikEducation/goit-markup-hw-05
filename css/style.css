@@ -954,11 +954,19 @@ background-color: #F4F4FD
     border-color: #4d5ae5;
 }
 
-
+.chekbox-decoration{
+    margin-bottom: 24px;
+}
 
 .chekbox{
     display: block;
-    appearance: none;
+   
+}
+
+.chekbox:checked{
+    background-color: #404bbf;
+    border: none;
+    fill:#F4F4FD;
 }
 
 .chekbox-label{
@@ -980,8 +988,8 @@ background-color: #F4F4FD
     
 }
 
-.custom-chekbox{
-    
+.privacy-policy{
+    color: #4d5ae5;;
 }
 
 
