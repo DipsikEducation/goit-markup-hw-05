@@ -693,7 +693,10 @@ background-color: #F4F4FD
     
 }
 
-.subscribe-form {}
+.subscribe-form {
+    display: flex;
+    gap:24px;
+}
 
 .subscribe-text {
     color: #FFFFFF;
@@ -704,22 +707,26 @@ background-color: #F4F4FD
         margin-bottom: 16px;
 }
 
-.subscribe-wrap{
-    display:flex ;
-    gap:24px;
-}
+
 
 .subscribe-input {
     color: #ffffff;
     width: 264px;
     height: 40px;
-    padding-left:16px ;
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     border: 1px solid #FFFFFF;
     border-radius: 4px;
     background-color: transparent;
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+
+    padding-left:16px ;
+    border-radius: 4px;
 }
 
-.subscribe-btn::placeholder{
+.subscribe-input::placeholder{
     color: #ffffff;
 }
 
@@ -729,22 +736,25 @@ background-color: #F4F4FD
 
 .subscribe-btn {
     
-    width: 165px;
+    min-width: 165px;
     height: 40px;
     color: #FFFFFF;
     background-color: #4D5AE5;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
 
 
    display: flex;
    justify-content: center;
    align-items: center;
-    
+   
+    border: none;
     border-radius: 4px;
 
     
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
     cursor: pointer;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
