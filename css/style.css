@@ -963,7 +963,7 @@ background-color: #F4F4FD
    
 }
 
-.chekbox:checked + .custom-chekbox{
+.chekbox:checked + .chekbox-label .custom-chekbox-wrapper{
     background-color: #404bbf;
     border: none;
     fill:#F4F4FD;
